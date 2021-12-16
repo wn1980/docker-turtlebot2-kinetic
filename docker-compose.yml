@@ -23,7 +23,7 @@ services:
 
   xserver:
     #build: ./xserver
-    image: wn1980/xserver${TAG}
+    image: wn1980/xserver-ros${TAG}
     container_name: ros_xserver
     init: true
     restart: unless-stopped
