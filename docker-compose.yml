@@ -42,7 +42,7 @@ services:
   turtlebot2:
     # env_file:
     #   - .env
-    #build: ./turtlebot2
+    build: ./turtlebot2
     image: wn1980/turtlebot2-kinetic${TAG}
     container_name: ros_turtlebot2_kinetic
     #hostname: ros-ops
