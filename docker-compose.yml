@@ -22,7 +22,7 @@ services:
       - "11311:11311"
 
   xserver:
-    #build: ./xserver
+    build: ./xserver
     image: wn1980/xserver-ros${TAG}
     container_name: ros_xserver
     init: true
